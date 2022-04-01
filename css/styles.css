@@ -1,0 +1,59 @@
+/*-------------- Global var ------------ */
+:root {
+  --header-color: #212121;
+  --accent-color: #2196f3;
+}
+
+/*-------------- Main styles ------------ */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #757575;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/*-------------- HEADER ------------ */
+.header-link:hover,
+.header-link:focus,
+.header-mail:focus,
+.header-mail:hover,
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+}
+
+.header {
+}
+.header-logo {
+}
+.header-navigation {
+}
+.header-list {
+}
+.header-item {
+}
+.header-contact {
+}
+.header-mail {
+}
+.header-tel {
+}
