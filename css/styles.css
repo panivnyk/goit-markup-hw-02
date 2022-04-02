@@ -1,13 +1,16 @@
-/*-------------- Global var ------------ */
+/*-- Global var -- */
 :root {
+  --basic-text-color: #757575;
   --header-color: #212121;
   --accent-color: #2196f3;
+  --first-title-color: #212121;
+  --second-title-color: #ffffff;
 }
 
-/*-------------- Main styles ------------ */
+/*-- Main styles -- */
 body {
   font-family: "Roboto", sans-serif;
-  color: #757575;
+  color: var(--basic-text-color);
 }
 
 .list {
@@ -31,29 +34,92 @@ body {
   margin: -1px;
 }
 
-/*-------------- HEADER ------------ */
+/*-- HEADER -- */
 .header-link:hover,
 .header-link:focus,
-.header-mail:focus,
-.header-mail:hover,
-.header-tel:hover,
-.header-tel:focus {
+.header-contact-item:focus,
+.header-contact-item:hover {
   color: var(--accent-color);
 }
 
-.header {
-}
 .header-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
-.header-navigation {
+.header-logo-part {
+  color: var(--header-color);
 }
-.header-list {
+
+.header-link {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-color);
 }
-.header-item {
+.header-contact-item {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--basic-text-color);
 }
-.header-contact {
+
+/*-- Section 1 - HERO -- */
+.hero {
+  background-color: #2f303a;
 }
-.header-mail {
+.hero-content {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--second-title-color);
 }
-.header-tel {
+.hero-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--second-title-color);
+  background-color: #2196f3;
+}
+
+/*-- Section 2 - Benefits -- */
+.benefits-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--first-title-color);
+}
+.benefits-item-content {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/*-- Section 3 - Work -- */
+.work-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
 }
