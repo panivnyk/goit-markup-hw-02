@@ -34,8 +34,13 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+.hero,
+.footer {
+  background-color: #2f303a;
+}
 
 /*-- HEADER -- */
+.link.current,
 .header-link:hover,
 .header-link:focus,
 .header-contact-item:focus,
@@ -54,30 +59,22 @@ body {
 .header-logo-part {
   color: var(--header-color);
 }
-
-.header-link {
-  font-family: "Roboto";
+.header-list,
+.header-contact {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.header-link {
   color: var(--header-color);
 }
 .header-contact-item {
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   color: var(--basic-text-color);
 }
 
 /*-- Section 1 - HERO -- */
-.hero {
-  background-color: #2f303a;
-}
 .hero-title {
-  font-family: "Roboto";
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -86,11 +83,12 @@ body {
   color: var(--second-title-color);
 }
 .hero-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  cursor: pointer;
   letter-spacing: 0.06em;
   color: var(--second-title-color);
   background-color: #2196f3;
@@ -98,33 +96,20 @@ body {
 
 /*-- Section 2 - Benefits -- */
 .benefits-title {
-  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--first-title-color);
 }
 .benefits-item-content {
-  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-/*-- Section 3 - Work -- */
-.work-title {
-  font-family: "Roboto";
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--header-color);
-}
-
-/*-- Section 3 - Our team -- */
-
+/*-- Section 3 - Work - and - Section 4 - Our team  -- */
+.work-title,
 .team-title {
-  font-family: "Roboto";
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -133,17 +118,14 @@ body {
 }
 
 .team-item-title {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--first-title-color);
 }
 .team-item-profession {
-  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -159,12 +141,9 @@ body {
 .footer-list-tel:hover {
   color: var(--accent-color);
 }
-.footer {
-  background-color: #2f303a;
-}
 
 .footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -176,23 +155,20 @@ body {
   color: var(--second-title-color);
 }
 
-.footer-list-address {
-  font-family: "Roboto";
+.footer-list-item {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.footer-list-address {
   color: #ffffff;
 }
+
 .footer-list-mail,
 .footer-list-tel {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -203,16 +179,16 @@ body {
 }
 
 .pf-type-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  cursor: pointer;
   letter-spacing: 0.03em;
   color: #212121;
 }
 .pf-item-title {
-  font-family: "Roboto";
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -220,7 +196,6 @@ body {
 }
 
 .pf-item-type {
-  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
